@@ -1,0 +1,146 @@
+  *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
+
+html,body { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     /* display: flex; */
+     /* flex-wrap: nowrap; */
+     /* position: absolute; */
+ overflow-x: hidden;
+          /* display: flex; */
+     height: 100%;
+     width: 100vw;
+     background: #30336b;
+     scroll-behavior: smooth;
+
+}
+
+.note{
+   /* display: flex; */
+      height: 400px;
+      width: 400px;
+      margin-top: 30px;
+      margin-left: 20px;
+}
+
+
+.note .title{
+      height: 40px;
+      background-color:#333;
+      width: 100%;
+}
+
+.note textarea{
+       /* font-style: oblique; */
+    font-weight: 700;
+    
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* text-align: center; */
+     /* font-style: italic; */
+    border: none;
+     height: 300px;
+     width: 100%;
+    resize: none;
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 5px;
+  /* padding: 1px; */
+    /* user-select: auto; */
+    outline: none;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+}
+.note textarea :focus{
+    border: none;
+    outline: none;
+}
+
+.note .title .icon{
+  
+    float: right;
+      height: 25px;
+      width: 30px;
+    
+      cursor: pointer; 
+      
+      
+}
+
+.add{
+    display: flex;
+      float: right;
+      background-color: #333;
+      cursor: pointer;
+      color: whitesmoke;
+      padding: 10px;
+      margin-top: 10px;
+      margin-right: 20px;
+       border-radius: 10px;
+       align-items: center;
+       font-size: 15px;
+       font-weight: 700;
+       text-align: center;
+       /* border: 1px solid white; */
+      
+}
+.add .btn{
+    justify-content: center;
+    /* display: flex; */
+    align-items: center;
+       height: 25px;
+       width: 25px;
+       margin-right: 20px;
+       /* padding: 5px; */
+       /* margin-top: 5px; */
+
+    }
+
+    button:hover{
+         border: 1px solid #fff;
+         overflow: hidden;
+transition:  ease-in-out;
+    }
+
+    .main{
+          width: 100%;
+          min-height: 100vh;
+          display: flex;
+          flex-wrap: wrap;
+          padding-bottom: 20px;
+    }
+
+  
+  .icon{
+    height: 20px;
+    display: flex;
+     margin-right: 20px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 7px;
+     /* padding-right: 20px; */
+     margin-left: 50px;
+     
+     float: right;
+      height: 25px;
+      width: 30px;
+      /* float: right; */
+      /* margin-top: 10px;
+      margin-right: 10px; */
+      cursor: pointer; 
+     width: 0px;
+     align-items: center;
+     /* justify-content: space-between; */
+  }
+
+  .icon .save,.delete{
+    margin-right: 5px;
+  };
+
+  /* textarea{
+     font-size: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  } */
